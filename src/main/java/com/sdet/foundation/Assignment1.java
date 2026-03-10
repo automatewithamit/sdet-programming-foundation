@@ -2,6 +2,7 @@ package com.sdet.foundation;
 
 public class Assignment1 {
 //    1 Check if a number is even or odd
+    int number= 10;
 //    Objective: Write a program to check if the given number is even or odd.
 //    Example Input: 8
 //    Example Output: 8 is even
