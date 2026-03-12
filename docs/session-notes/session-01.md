@@ -26,32 +26,26 @@ By the end of this session the student should be able to:
 
 ## IntelliJ IDEA
 
-The development environment was configured using **IntelliJ IDEA**.
-
-### Steps Completed
+Steps completed:
 
 - Installed IntelliJ IDEA
-- Created a **Maven-based Java project**
+- Created Maven Java project
 - Verified project structure
 
 ---
 
 ## GitHub Setup
 
-GitHub account was created and configured.
-
-### Steps Completed
+Steps completed:
 
 - Created GitHub account
-- Created repository for the learning program
-- Student was added as collaborator
-- Repository was cloned locally
+- Created repository for learning program
+- Added collaborator
+- Cloned repository locally
 
 ---
 
-# Git Concepts Explained
-
-The following Git concepts were introduced:
+# Git Concepts Introduced
 
 - Repository
 - Clone
@@ -59,14 +53,11 @@ The following Git concepts were introduced:
 - Push
 - Branching
 
-### Hands-on Practice
+Student practiced:
 
-The student practiced:
-
-- Cloning the repository
-- Making code changes
+- Cloning repository
 - Creating commits
-- Pushing code to GitHub
+- Pushing code
 
 ---
 
@@ -74,11 +65,7 @@ The student practiced:
 
 ## Naming Conventions
 
-Java naming conventions were introduced.
-
-### Camel Case (Variables / Methods)
-
-Example:
+### Camel Case (variables / methods)
 
 ```
 calculateTotal
@@ -86,9 +73,7 @@ userName
 testResult
 ```
 
-### Pascal Case (Class Names)
-
-Example:
+### Pascal Case (class names)
 
 ```
 UserAccount
@@ -100,17 +85,15 @@ TestSuite
 
 # Variables and Data Types
 
-Basic Java data types were introduced.
+Data types introduced:
 
-### Data Types Discussed
+- int
+- double
+- boolean
+- char
+- String
 
-- `int`
-- `double`
-- `boolean`
-- `char`
-- `String`
-
-### Example
+Example:
 
 ```java
 int age = 30;
@@ -123,41 +106,33 @@ String name = "Sonal";
 
 # Control Statements
 
-Decision making using conditional statements was introduced.
-
-## if Statement
+## if statement
 
 ```java
-if (age > 18) {
+if(age > 18){
     System.out.println("Eligible");
 }
 ```
 
-## if-else Statement
+## if-else statement
 
 ```java
-if (number % 2 == 0) {
+if(number % 2 == 0){
     System.out.println("Even");
-} else {
+}else{
     System.out.println("Odd");
 }
 ```
 
-## Nested if
+## switch statement
 
-The concept of nested conditional statements was explained.
-
-## Switch Statement
-
-The concept of handling multiple conditions using `switch` statements was introduced.
+Concept of handling multiple conditions.
 
 ---
 
 # Taking Input from User
 
-The student learned how to read user input using the `Scanner` class.
-
-### Example
+Example using Scanner:
 
 ```java
 import java.util.Scanner;
@@ -173,53 +148,22 @@ System.out.println("Hello " + name);
 
 ---
 
-# Hands-on Coding
-
-During the session we practiced:
-
-- Printing values
-- Using variables
-- Taking user input
-- Writing conditional statements
-- Running Java programs in IntelliJ
-- Committing code to GitHub
-
----
-
 # Assignments Given
 
-The following assignments were given for practice:
+1. Program to check **even or odd number**
+2. Program to find **largest of two numbers**
+3. Program to **take input and print the value**
 
-1. Write a program to check if a number is **even or odd**
-2. Write a program to find the **largest of two numbers**
-3. Write a program that **takes input from user and prints the value**
-
-### Submission
-
-Assignments must be **committed and pushed to the GitHub repository**.
-
----
-
-# Next Session Plan
-
-In the next session we will cover:
-
-- Loops (`for`, `while`)
-- Logical operators
-- More programming exercises
-- Writing structured Java programs
+Assignments must be pushed to GitHub.
 
 ---
 
 # Session Outcome
 
-By the end of the session the student successfully:
+By the end of the session the student:
 
 - Set up IntelliJ and GitHub
 - Cloned and worked with a repository
-- Learned Java basics
+- Practiced Java basics
 - Practiced conditional logic
 - Pushed code to GitHub
-- Completed the initial programming setup
-
-This session established the **foundation required for Java programming and future automation testing concepts**.
