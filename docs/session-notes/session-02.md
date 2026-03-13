@@ -1,6 +1,6 @@
 # Session 2 – Programming Foundation
 
-**Date:** 11 Mar 2026  
+**Date:** 12 Mar 2026  
 **Session:** 02
 
 ---
