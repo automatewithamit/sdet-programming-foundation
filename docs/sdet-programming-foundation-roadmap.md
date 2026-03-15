@@ -3,7 +3,7 @@
 This roadmap defines the **logical sequence of topics** required to build strong programming fundamentals before transitioning into **automation testing**.
 
 The goal of this phase is to help the learner:
-
+  
 - Write structured Java programs
 - Build programming logic
 - Understand object-oriented programming
