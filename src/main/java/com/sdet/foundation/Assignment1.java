@@ -1,5 +1,7 @@
 package com.sdet.foundation;
 
+import java.util.Scanner;
+
 public class Assignment1 {
 //    1 Check if a number is even or odd
     int number= 10;
@@ -7,7 +9,24 @@ public class Assignment1 {
 //    Example Input: 8
 //    Example Output: 8 is even
 // 🎯 Hint: Use if-else and the modulus operator %.
+public static void main(String[] args) {
+    System.out.println("Enter Number : ");
+    Scanner scanner = new Scanner(System.in);
+    int num = scanner.nextInt();
+
+    if(num % 2==0)
+    {
+        System.out.println("Number is even Number");
+    }
+    else
+    {
+        System.out.println("Number is odd Number");
+    }
+}
+
 //
+//        System.out.println("Enter Your Age : ");
+//        int age  = scanner.nextInt();
 //    2 Find the largest of three numbers
 //    Objective: Accept three numbers and print which one is largest.
 //    Example Input: 12, 45, 7
