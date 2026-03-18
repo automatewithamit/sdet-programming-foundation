@@ -1,22 +1,24 @@
-# Programming Foundation Roadmap
+# SDET Programming Foundation Roadmap
 
-This roadmap defines the **logical sequence of topics** required to build strong programming fundamentals before transitioning into **automation testing**.
+This roadmap outlines the complete journey for building strong programming fundamentals required for automation testing.
 
-The goal of this phase is to help the learner:
-  
-- Write structured Java programs
-- Build programming logic
-- Understand object-oriented programming
-- Work with real project structure
-- Prepare for automation frameworks
+The roadmap is divided into phases to ensure the learner develops skills in a logical and structured manner.
+
+The goal is to help the learner:
+
+- build programming confidence
+- develop logical thinking
+- write structured Java programs
+- understand object-oriented programming
+- prepare for automation frameworks
 
 ---
 
 # Phase 1 – Development Environment & Version Control
 
-These topics help the learner become comfortable with the **development environment and code management**.
+This phase focuses on setting up the development environment and understanding how code is managed in real-world projects.
 
-Topics Covered
+## Topics Covered
 
 - IntelliJ IDEA setup
 - Maven project structure
@@ -24,218 +26,215 @@ Topics Covered
 - Repository creation
 - Cloning repository
 - Git workflow
-    - clone
-    - commit
-    - push
-    - pull
-    - branching
-- Basic debugging
+  - clone
+  - commit
+  - push
+  - pull
+  - branch creation
+- Debugging basics
 - Using breakpoints
-- Understanding execution flow
+- Understanding program execution
 
-Outcome
+## Outcome
 
 The learner can:
 
-- Work with IntelliJ
-- Commit and push code to GitHub
-- Debug programs step by step
+- work with IntelliJ
+- manage code using GitHub
+- debug programs step-by-step
 
 ---
 
 # Phase 2 – Java Programming Fundamentals
 
-These topics build the **core programming foundation**.
+This phase introduces the basic building blocks of programming.
 
-Topics Covered
+## Topics Covered
 
 - Variables
-- Data Types
+- Data types
 - Operators
-    - Arithmetic operators
-    - Relational operators
-    - Logical operators
-- Java Naming Conventions
-    - camelCase
-    - PascalCase
-- Taking user input using Scanner
-- Output using `System.out.println`
+  - arithmetic
+  - relational
+  - logical
+- Java naming conventions
+  - camelCase
+  - PascalCase
+- User input using Scanner
+- Output using System.out.println
 
-Outcome
+## Outcome
 
-The learner can:
-
-- Declare variables
-- Use operators
-- Write simple Java programs
+The learner can write simple Java programs.
 
 ---
 
-# Phase 3 – Conditional Logic
+# Phase 3 – Control Flow (Conditional Statements)
 
-These topics help build **decision-making logic** in programs.
+This phase introduces decision-making logic.
 
-Topics Covered
+## Topics Covered
 
-- `if` statement
-- `if-else`
-- `if-else-if`
-- nested `if`
-- `switch` statement
+- if
+- if-else
+- if-else-if
+- nested if
+- switch statement
 
-Practice Focus
+## Practice Programs
 
-- number validation
-- grading systems
-- decision making logic
-- real-world condition problems
+- even / odd numbers
+- positive / negative numbers
+- grading system
+- voting eligibility
+- number comparison
 
-Outcome
+## Outcome
 
-The learner can:
-
-- Write programs using conditional logic
-- Build decision-based logic
+The learner can build programs using conditional logic.
 
 ---
 
 # Phase 4 – Loops
 
-Loops help automate repetitive tasks in programming.
+Loops allow repeating operations efficiently.
 
-Topics Covered
+## Topics Covered
 
-- `for` loop
-- `while` loop
-- `do-while` loop
-- `for-each` loop
+- for loop
+- while loop
+- do-while loop
+- for-each loop
+- break keyword
+- continue keyword
 
-Practice Focus
+## Practice Programs
 
-- number patterns
+- number printing
 - multiplication tables
 - factorial
-- Fibonacci
+- Fibonacci series
 - digit operations
-- array iteration
 
-Outcome
+## Outcome
 
-The learner can:
-
-- write repetitive logic
-- solve algorithmic problems
+The learner understands how to perform repetitive tasks in programs.
 
 ---
 
-# Phase 5 – Methods (Functions)
+# Phase 5 – Logic Building Practice
 
-Methods help break large programs into **smaller reusable pieces**.
+This phase strengthens problem-solving ability.
 
-Topics Covered
+## Practice Areas
 
-- What is a method
-- Method syntax
-- Method parameters
-- Return types
-- Calling methods
-- Static vs non-static methods
-- Method overloading
+- conditional problems
+- loop problems
+- number problems
+- pattern programs
+- debugging exercises
 
-Example Concepts
+## Example Problems
 
-- calculator methods
-- reusable logic
-- separating business logic
+- palindrome numbers
+- Armstrong numbers
+- largest digit in number
+- pattern programming
+- nested loop logic
 
-Outcome
+## Outcome
 
-The learner can:
-
-- write reusable code
-- organize logic into functions
+The learner develops strong programming logic.
 
 ---
 
-# Phase 6 – Arrays
+# Phase 6 – Methods (Functions)
 
-Arrays help store and process **multiple values efficiently**.
+Methods allow programs to be divided into reusable pieces.
 
-Topics Covered
+## Topics to Cover
 
-- Array declaration
-- Array initialization
-- Accessing array elements
-- Looping through arrays
-- `for-each` loop with arrays
+- what is a method
+- method syntax
+- parameters
+- return types
+- calling methods
+- static vs non-static methods
+- method overloading
 
-Practice Focus
+## Practice Programs
 
+- add two numbers using a method
+- even/odd using method
+- factorial using method
+- prime number using method
+
+## Outcome
+
+The learner can write reusable code.
+
+---
+
+# Phase 7 – Arrays
+
+Arrays allow storing multiple values in a single variable.
+
+## Topics to Cover
+
+- array declaration
+- array initialization
+- accessing elements
+- iterating using loops
+- for-each loop with arrays
+
+## Practice Programs
+
+- print array elements
 - sum of array elements
-- largest element
-- smallest element
-- searching values
+- largest element in array
+- smallest element in array
+- search element in array
 
-Outcome
+## Outcome
 
-The learner understands how to work with **collections of data**.
-
----
-
-# Phase 7 – Strings
-
-Strings are extremely important in automation because most UI/API validations involve text.
-
-Topics Covered
-
-- String creation
-- String methods
-- length
-- equals
-- contains
-- substring
-- split
-- trim
-
-Practice Focus
-
-- palindrome check
-- string reversal
-- validation logic
-
-Outcome
-
-The learner can manipulate and validate text values.
+The learner can work with collections of data.
 
 ---
 
-# Phase 8 – Object-Oriented Programming (OOP)
+# Phase 8 – Strings
 
-This is the **most important concept for automation frameworks**.
+Strings are extremely important for automation testing because many validations involve text.
 
-Topics Covered
+## Topics to Cover
 
-- Classes and Objects
-- Fields and Methods
-- Constructors
-- Encapsulation
-- Inheritance
-- Polymorphism
-- Method overriding
-- Abstraction
-- Interfaces
+- string creation
+- length()
+- equals()
+- equalsIgnoreCase()
+- contains()
+- substring()
+- split()
+- trim()
 
-Outcome
+## Practice Programs
 
-The learner understands how **real-world software is structured**.
+- reverse a string
+- palindrome string
+- count vowels
+- remove spaces
+- word count
+
+## Outcome
+
+The learner can manipulate and validate text data.
 
 ---
 
 # Phase 9 – Collections Framework
 
-Collections are widely used in automation frameworks.
+Collections provide dynamic data structures.
 
-Topics Covered
+## Topics to Cover
 
 - List
 - ArrayList
@@ -243,83 +242,90 @@ Topics Covered
 - HashSet
 - Map
 - HashMap
-- Iteration through collections
+- Iterating collections
 
-Practice Focus
+## Practice Programs
 
-- storing test data
-- retrieving values
-- loops with collections
+- store list of names
+- remove duplicates
+- count frequency of elements
+- iterate through map
 
-Outcome
+## Outcome
 
-The learner can manage **dynamic data structures**.
+The learner understands dynamic data structures used in real-world programs.
 
 ---
 
-# Phase 10 – Exception Handling
+# Phase 10 – Object-Oriented Programming (OOP)
 
-Exception handling is critical for **stable automation frameworks**.
+OOP is the foundation of automation frameworks.
 
-Topics Covered
+## Topics to Cover
+
+- classes
+- objects
+- constructors
+- encapsulation
+- inheritance
+- polymorphism
+- abstraction
+- interfaces
+
+## Outcome
+
+The learner understands how software systems are structured.
+
+---
+
+# Phase 11 – Exception Handling
+
+Exception handling helps build robust programs.
+
+## Topics to Cover
 
 - try
 - catch
 - finally
 - throw
 - throws
-- custom exceptions
 
-Outcome
+## Outcome
 
-The learner can write **safe and reliable code**.
-
----
-
-# Phase 11 – File Handling
-
-Automation frameworks often read data from files.
-
-Topics Covered
-
-- Reading files
-- Writing files
-- Working with text files
-- Working with CSV files
-
-Outcome
-
-The learner can read and write data from external files.
+The learner can handle runtime errors properly.
 
 ---
 
-# Phase 12 – Preparation for Automation
+# Phase 12 – File Handling
 
-Once programming fundamentals are strong, the learner transitions to **automation concepts**.
+Automation frameworks often read test data from external files.
 
-Topics Covered
+## Topics to Cover
 
-- Introduction to automation testing
+- reading files
+- writing files
+- working with text files
+- working with CSV files
+
+## Outcome
+
+The learner can read and write external data.
+
+---
+
+# Phase 13 – Transition to Automation Testing
+
+After programming fundamentals are strong, the learner transitions into automation.
+
+## Topics to Cover
+
+- introduction to automation testing
 - Selenium / Playwright basics
 - Page Object Model
-- Test structure
-- Assertions
-- Test execution flow
+- test structure
+- assertions
+- test execution
 
-Outcome
+## Outcome
 
-The learner is ready to start building **automation frameworks**.
-
----
-
-# Final Outcome of Programming Foundation
-
-After completing this roadmap the learner will be able to:
-
-- Write structured Java programs
-- Debug code confidently
-- Use GitHub for code tracking
-- Understand object-oriented programming
-- Work with arrays, strings, and collections
-- Write reusable methods
-- Prepare for automation frameworks
+The learner becomes ready to build automation frameworks.
