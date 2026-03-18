@@ -11,7 +11,7 @@ public class BreakKeyword {
         for (int i = 1; i <=50; i++) {
 
             if (i%11==0)
-                break;
+                break;// Break Keyword here pulls execution out of the loop
             System.out.println(i);
         }
 
