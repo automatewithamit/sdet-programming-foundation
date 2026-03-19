@@ -1,4 +1,4 @@
-package com.sdet.foundation.week1;
+package com.sdet.foundation.week1.conditionalstatement;
 
 import java.util.Scanner;
 

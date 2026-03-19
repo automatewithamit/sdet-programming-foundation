@@ -1,9 +1,8 @@
-package com.sdet.foundation;
+package com.sdet.foundation.week1.conditionalstatement;
 
 import java.util.Scanner;
 
-public class Class1 {
-
+public class UserInputExample {
     public static void main(String[] args) {
 
         System.out.println("Enter Your Name : ");

@@ -4,7 +4,7 @@
 //    Example Output: 45 is the largest number
 
 
-package com.sdet.foundation;
+package com.sdet.foundation.week1.conditionalstatement;
 
 import java.util.Scanner;
 
