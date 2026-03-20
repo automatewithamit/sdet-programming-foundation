@@ -23,3 +23,8 @@ https://www.youtube.com/playlist?list=PLP2wZ__7Pmc8gAGR1C6jROoMIVjDOzOb6
 #### SESSION 05
 
 ##### Link - https://youtu.be/hFfqMtaqEYc
+
+
+#### SESSION 06
+
+##### Link - https://youtu.be/eEiQ8gjinkw
