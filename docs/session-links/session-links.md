@@ -28,3 +28,11 @@ https://www.youtube.com/playlist?list=PLP2wZ__7Pmc8gAGR1C6jROoMIVjDOzOb6
 #### SESSION 06
 
 ##### Link - https://youtu.be/eEiQ8gjinkw
+
+#### SESSION 07 
+
+##### Link - 
+
+
+#### Youtube Playlist of JAVA INTERVIEW QUESTIONS
+https://www.youtube.com/playlist?list=PLP2wZ__7Pmc-O-1O6_ODpdWPPP7qlN8ui

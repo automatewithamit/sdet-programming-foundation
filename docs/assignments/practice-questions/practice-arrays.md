@@ -127,7 +127,7 @@ Not Found
 ## 12. Find index of first occurrence
 
 Input  
-[5, 10, 5, 20], key = 5
+[5, 10, 5, 20], key = 5 
 
 Output  
 0
