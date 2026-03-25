@@ -1,20 +1,17 @@
 package com.sdet.foundation.assignments;
 
 import java.util.Scanner;
-//sum of digits eg 145 1+4+5=10
-public class SumOfDigits {
+
+public class digitsCount {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
-        System.out.println("Enter Number");
+        System.out.println("enter number");
         int input= scanner.nextInt();
-        int result=0;
+        int count=0;
         while(input>0){
-           int temp=input%10 ;
-            result=result+temp;
             input=input/10;
+            count=count+1;
         }
-
-        System.out.println(result);
-        }
+        System.out.println(count);
     }
-
+}
