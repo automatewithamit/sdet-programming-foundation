@@ -271,6 +271,8 @@ OOP is the foundation of automation frameworks.
 - polymorphism
 - abstraction
 - interfaces
+- abstract classes
+- 
 
 ## Outcome
 
