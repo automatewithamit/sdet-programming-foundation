@@ -237,12 +237,20 @@ Collections provide dynamic data structures.
 ## Topics to Cover
 
 - List
-- ArrayList
+  - ArrayList
+  - LinkedList
+  - Stack
 - Set
-- HashSet
+  - HashSet
+  - LinkedHashSet
+  - TreeSet
 - Map
-- HashMap
+  - HashMap
+  - LinkedHashMap
+  - TreeMap
 - Iterating collections
+- common collection methods
+- difference between List, Set, and Map
 
 ## Practice Programs
 

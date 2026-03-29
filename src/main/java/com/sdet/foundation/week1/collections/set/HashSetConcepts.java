@@ -2,9 +2,9 @@ package com.sdet.foundation.week1.collections.set;
 
 import java.util.Set;
 
-public class HashSet {
+public class HashSetConcepts {
     public static void main(String[] args) {
-        //HashSet is a collection that contains no duplicate elements and is based on the hash code of the objects. It is part of the Java Collections Framework and implements the Set interface. HashSet does not maintain any order of its elements, and it allows null values.
+        //HashSet is a collection that contains no duplicate elements and is based on the hash code of the objects. It is part of the Java Collections Framework and implements the Set interface.
 
         //HashSet does not allow duplicate elements. If you try to add a duplicate element, it will simply ignore it and not throw an error.
 
@@ -54,6 +54,13 @@ public class HashSet {
         cars.add("Tesla");
         cars.add("Audi");
         System.out.println("After Adding new elements " + cars);
+        //CRUD Operations
+        //Create -> add()
+        //Read -> contains(), forEach(), size(), isEmpty
+        //Update -> Not applicable for Set as it does not maintain order and does not allow duplicates
+        //Delete -> remove()
+        //Sorting a HashSet is not possible as it does not maintain any order of its elements.
+        //If you need a sorted collection, you can use a TreeSet instead, which maintains a sorted order of its elements based on their natural ordering or a specified comparator.
 
     }
 }
