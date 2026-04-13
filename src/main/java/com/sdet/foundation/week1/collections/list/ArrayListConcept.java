@@ -16,6 +16,7 @@ public class ArrayListConcept {
         ArrayList<String> names = new ArrayList<>();
         String[] name = new String[] {"Trump", "Modi", "Bush"};
 
+        ArrayList<Employee> employees = new ArrayList<>();
         names.add("Trump");
         names.add("Modi");
         names.add("Bush");
