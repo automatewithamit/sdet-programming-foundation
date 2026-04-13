@@ -9,6 +9,8 @@ public class HashMapConcepts {
     //HashMap does not allow duplicate keys. If you try to add a duplicate key, it will simply overwrite the existing value associated with that key and not throw an error.
     //HashMap allows one null key.
     //HashMap provides constant time performance for basic operations like put, get, remove, and
+    //Is HashMap thread safe? No, HashMap is not thread safe.
+    // If multiple threads access a HashMap concurrently and at least one of the threads modifies the map structurally, it must be synchronized externally to prevent concurrent modification issues.
     public static void main(String[] args) {
 
 

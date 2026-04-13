@@ -15,6 +15,9 @@ public class HashSetConcepts {
         //HashSet provides constant time performance for basic operations like add, remove, and contains, assuming the hash function disperses the elements properly across the buckets.
 
         //HashSet is not synchronized, which means that if multiple threads access a HashSet concurrently and at least one of the threads modifies the set structurally, it must be synchronized externally.
+        //Is Hashset thread safe? No, HashSet is not thread safe.
+        // If multiple threads access a HashSet concurrently and at least one of the threads modifies the set structurally,
+        // it must be synchronized externally to prevent concurrent modification issues.
         Set<String> cars = new java.util.HashSet<>();
         cars.add("Volvo");
         cars.add("BMW");

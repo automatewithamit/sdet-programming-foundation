@@ -11,7 +11,8 @@ public class StringManipulationConcepts {
         String str1 = "Hello"; // String literal
 
         String str2 = new String("Hello"); // Using constructor
-        //String literals are stored in the string pool, and if you create a string using a string literal, it will check the pool for an existing string with the same content. If it finds one, it will return a reference to that string. If not, it will create a new string in the pool. On the other hand, when you create a string using the constructor, it will always create a new string object in the heap, even if an identical string already exists in the string pool. This is because the constructor does not check the string pool for existing strings and directly creates a new object in the heap memory.
+        //String literals are stored in the string pool, and if you create a string using a string literal, it will check the pool for an existing string with the same content.
+        // If it finds one, it will return a reference to that string. If not, it will create a new string in the pool. On the other hand, when you create a string using the constructor, it will always create a new string object in the heap, even if an identical string already exists in the string pool. This is because the constructor does not check the string pool for existing strings and directly creates a new object in the heap memory.
         //String immutability means that once a String object is created,
         // its value cannot be changed. Any operation that seems to modify a string actually creates a new string object with the modified value, while the original string remains unchanged.
         // This is because strings are stored in a special area of memory called the string pool, which allows for efficient memory usage and performance.

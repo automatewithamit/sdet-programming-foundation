@@ -6,6 +6,10 @@ public class StackConcepts {
     public static void main(String[] args) {
         //Stack is a linear data structure that follows the Last In First Out (LIFO) principle, where the last element added to the stack is the first one to be removed. It can be implemented using arrays or linked lists.
         //Example of Stack
+        //Differnce between Stack and Vector
+        //1. Stack is a subclass of Vector, which means that Stack inherits all the methods of Vector. However, Stack is designed to be used as a last-in-first-out (LIFO) data structure, while Vector is a more general-purpose dynamic array that can be used for various purposes.
+        //2. Stack provides additional methods such as push(), pop(), peek(), and search() that are specific to stack operations, while Vector does not have these methods.
+        //3. Stack is synchronized, which means that it is thread-safe and can be used in multi-threaded environments without the need for external synchronization. Vector is also synchronized, but it is generally considered less efficient than Stack for stack operations due to its more general-purpose design.
         Stack<String> stack = new Stack<String>();
 
         //Adding elements to the stack

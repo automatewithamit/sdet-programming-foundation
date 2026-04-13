@@ -13,7 +13,10 @@ public class LinkedListConcepts {
         //4. ArrayList has a smaller memory footprint compared to LinkedList, as it does not require additional memory for storing references to the next and previous nodes.
 
         //Define LinkedList
-
+        //Benefit of LinkedList over ArrayList
+        //1. LinkedList allows for efficient insertion and deletion of elements, as it does not require shifting of elements like in an ArrayList. This makes it a better choice when you need to frequently add or remove elements from the list.
+        //2. LinkedList can grow and shrink dynamically, while ArrayList has a fixed size. This means that LinkedList can handle a varying number of elements without the need for resizing, which can be costly in terms of performance.
+        //3. LinkedList can be used to implement other data structures such as stacks and queues, while ArrayList is primarily designed for random access and is not as efficient for implementing these types of data structures.
         LinkedList<String> cars = new LinkedList<>();
         //Clone a LinkedList
         //Example of cloning a LinkedList
