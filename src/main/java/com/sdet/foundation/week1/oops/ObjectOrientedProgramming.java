@@ -11,9 +11,9 @@ public class ObjectOrientedProgramming {
     //Before OOPs, programming was primarily procedural,
         // where the focus was on writing procedures or routines to operate on data.
         // OOPs introduced a new way of thinking about programming by organizing code around objects that represent real-world entities, making it easier to manage and maintain complex software systems.
-   // for example, you can create a class called "Car" that encapsulates properties like "make", "model", and "year",
+   // for example, you can create a class called "HybridCar" that encapsulates properties like "make", "model", and "year",
         // and methods like "startEngine()" and "stopEngine()".
-        // You can then create subclasses/child classes like "ElectricCar" and "GasolineCar" that inherit from the "Car" class, demonstrating inheritance.
+        // You can then create subclasses/child classes like "ElectricCar" and "GasolineCar" that inherit from the "HybridCar" class, demonstrating inheritance.
         // Polymorphism can be shown by overriding the "startEngine()" method in both subclasses to provide different implementations. Abstraction can be demonstrated by creating an interface called "Vehicle" that defines the methods that all vehicles must implement, allowing you to focus on what a vehicle does rather than how it does it.
 
         //Pillars of OOPs:
@@ -25,7 +25,7 @@ public class ObjectOrientedProgramming {
 
 
         // Example of OOPs concepts in Java:
-        // Car myCar = new Car("Toyota", "Camry", 2020);
+        // HybridCar myCar = new HybridCar("Toyota", "Camry", 2020);
         // myCar.startEngine();
         //  myCar.stopEngine();
 

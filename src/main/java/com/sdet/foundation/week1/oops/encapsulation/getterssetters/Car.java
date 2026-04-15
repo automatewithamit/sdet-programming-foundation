@@ -1,9 +1,9 @@
-package com.sdet.foundation.week1.oops.accessmodifiers;
+package com.sdet.foundation.week1.oops.encapsulation.getterssetters;
 
 public class Car {
     private String make;
     private String model;
-    int year;
+    private int year;
 
     // Constructor
     public Car(String make, String model, int year) {

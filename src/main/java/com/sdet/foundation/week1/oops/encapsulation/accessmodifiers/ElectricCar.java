@@ -1,4 +1,4 @@
-package com.sdet.foundation.week1.oops.accessmodifiers;
+package com.sdet.foundation.week1.oops.encapsulation.accessmodifiers;
 
 public class ElectricCar {
         private String make;
@@ -16,6 +16,8 @@ public class ElectricCar {
 
         // Getter and Setter for make
         public String getMake() {
+            AccessModifiers accessModifiers = new AccessModifiers();
+            accessModifiers.protectedVariable = "Protected Variable Value";
             return make;
         }
 

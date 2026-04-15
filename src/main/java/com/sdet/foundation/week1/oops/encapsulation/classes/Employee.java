@@ -1,4 +1,6 @@
-package com.sdet.foundation.week1.oops.classes;
+package com.sdet.foundation.week1.oops.encapsulation.classes;
+
+import com.sdet.foundation.week1.oops.encapsulation.accessmodifiers.AccessModifiers;
 
 public class Employee {
     //What is a class?
@@ -9,9 +11,8 @@ public class Employee {
     // ensuring that they are used in a way that maintains the integrity of the data and the functionality of the class.
 
 
-
-
     //Properties/Attributes/Fields
+    //Instance Variables, Member Variables, Data Members
     String name;
     int age;
     String department;
@@ -26,6 +27,8 @@ public class Employee {
     //Types of constructors:
     //1. Default Constructor: A constructor that takes no parameters and initializes the object with default values. If no constructor is defined in a class, Java provides a default constructor automatically.
     // Example of a default constructor:
+
+
      public Employee() {
          System.out.println("Default constructor called. Initializing with default values.");
          this.employeeId = 0;
@@ -73,9 +76,12 @@ public class Employee {
 
     //Methods/Behaviors
     public void work() {
+         int hoursWorked = 8; // Local variable to represent hours worked
         System.out.println(name + " is working in the " + department + " department.");
     }
     public void takeBreak() {
+        AccessModifiers accessModifiers = new AccessModifiers();
+        //accessModifiers.protectedVariable = "Protected Variable Value"; // Accessing protected variable from AccessModifiers class
         System.out.println(name + " is taking a break.");
     }
 

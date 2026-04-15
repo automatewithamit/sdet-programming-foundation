@@ -1,4 +1,4 @@
-package com.sdet.foundation.week1.oops.getterssetters;
+package com.sdet.foundation.week1.oops.encapsulation.getterssetters;
 
 public class Employee {
     //What are Getters and Setters?

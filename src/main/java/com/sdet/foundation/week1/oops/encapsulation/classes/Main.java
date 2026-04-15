@@ -1,4 +1,4 @@
-package com.sdet.foundation.week1.oops.classes;
+package com.sdet.foundation.week1.oops.encapsulation.classes;
 
 public class Main {
     public static void main(String[] args) {

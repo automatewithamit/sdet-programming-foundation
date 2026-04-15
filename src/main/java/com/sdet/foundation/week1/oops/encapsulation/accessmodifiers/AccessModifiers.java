@@ -1,4 +1,4 @@
-package com.sdet.foundation.week1.oops.accessmodifiers;
+package com.sdet.foundation.week1.oops.encapsulation.accessmodifiers;
 
 public class AccessModifiers {
 
@@ -18,6 +18,6 @@ public class AccessModifiers {
     protected String protectedVariable = "This is a protected variable";
     String defaultVariable = "This is a default variable";
     //Example of protected access modifier:
-    // In the Car class, we have a protected variable called "make". This means that the "make" variable can be accessed from within the Car class, from any subclass of Car ( such as ElectricCar), and from any class in the same package as Car. However, it cannot be accessed from classes in different packages that are not subclasses of Car. This allows us to control access to the "make" variable while still allowing it to be inherited and used by subclasses and classes within the same package.
+    // In the HybridCar class, we have a protected variable called "make". This means that the "make" variable can be accessed from within the HybridCar class, from any subclass of HybridCar ( such as ElectricCar), and from any class in the same package as HybridCar. However, it cannot be accessed from classes in different packages that are not subclasses of HybridCar. This allows us to control access to the "make" variable while still allowing it to be inherited and used by subclasses and classes within the same package.
 
 }
