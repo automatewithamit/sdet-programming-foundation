@@ -1,7 +1,8 @@
 package com.sdet.foundation.week1.keywords;
 
 public class JavaKeyword {
-    // Java keywords are reserved words that have a predefined meaning in the Java programming language. They cannot be used as identifiers (such as variable names, class names, or method names) because they are reserved for specific purposes in the language syntax.
+    // Java keywords are reserved words that have a predefined meaning in the Java programming language.
+    // They cannot be used as identifiers (such as variable names, class names, or method names) because they are reserved for specific purposes in the language syntax.
 
     // Here are some examples of Java keywords:
 
