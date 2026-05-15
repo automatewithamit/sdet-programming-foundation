@@ -47,8 +47,6 @@ public class ArrayListConcept {
         System.out.println("Does List contains Modi ? "+ names.contains("Modi"));
         names.forEach(name1 -> System.out.println(name1 + " Sirname")); //It performs the given action for each element of the Iterable until all elements have been processed or the action throws an exception. Unless otherwise specified by the implementing class, actions are performed in the order of iteration (if an iteration order is specified). Exceptions thrown by the action are relayed to the caller.
         names.forEach(nameWithCountry -> {
-
-
             System.out.println(nameWithCountry + " is a Prime Minister of India or Canada or USA");
             System.out.println(nameWithCountry + " is a President of India or Canada or USA");
 
